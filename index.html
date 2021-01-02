@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--declear any shit in head portion-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--This line makes the project responsive-->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <title>murimura-bkk</title>
+    </head>
+    <body>
+        <!--nav bar-->
+        <nav class="nav">
+            <div class="nav-menu flex-row"> <!--nav menu class is flexible item**-->
+                <div class="nav-logo">
+                    <a href="#" class="brand-text">MURIMURA.BKK</a> <!--# means if we clcik at this text, it will relosd the whole page-->
+                </div>
+                <div class="hamburger">
+                    <div class="hamburger-icon"><i class="fas fa-bars"></i></div>
+                </div>
+                <div>
+                    <ul class="nav-items">
+                        <li class="nav-link">
+                            <a href="#" style="color: #545454;">HOME</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#" style="color: #545454;">CLOTHES</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#" style="color: #545454;">ACCESSORIES</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#" style="color: #545454;">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-cart">
+                    <a href="#" style="color: #545454;"><i class="fas fa-shopping-bag"></i></a>
+                </div>
+            </div>
+        </nav>
+        <main> <!--unique to the document, not repeat across different pages-->
+            <!--hero section-->
+            <section class="hero-section"> <!--when want to divide web page into sections such as hero, footer-->
+                <div class="hero-background"> <!--but div used to define group of element-->
+                    <h1>Korean women clothes platform</h1>
+                    <h2>Welcome Murimura girls!</h2>
+                    <button class="btn shop-now">SHOP NOW</button>
+                </div>
+            </section>
+            <!--card section using owl carousel-->
+            <section class="card-section">
+                <div class="container">
+                    <h2 class="must-have">MUST HAVE ITEMS</h2>
+                    <h5>What's popular on Murimura.bkk</h5>
+                    <div class="owl-theme product-cards"> <!--all cards in a row-->
+                        <div class="product-content">
+                            <div class="product-img">
+                                <img src="https://i.pinimg.com/564x/6e/35/4a/6e354afa5ce8ed495fc83b3f6f4c264d.jpg" alt="product-1" class="pdt-img">
+                            </div>
+                            <div class="product-caption">
+                                <h1 class="product-name">WHITE CAMI TOP</h1>
+                                <h3 class="product-price">390 BHT</h3>
+                                <button class="btn btn-product">BUY NOW</button>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <img src="https://i.pinimg.com/564x/b4/f9/a5/b4f9a5a4f64f73e3d3c309975ace4478.jpg" alt="product-1">
+                            <div class="product-caption">
+                                <h1 class="product-name">OFF-SHOULDER BLACK TOP</h1>
+                                <h3 class="product-price">490 BHT</h3>
+                                <button class="btn btn-product">BUY NOW</button>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <img src="https://i.pinimg.com/564x/c2/9d/de/c29ddea71e65a3e8d113068f47540f5b.jpg" alt="product-1">
+                            <div class="product-caption">
+                                <h1 class="product-name">BEIGE CAMI TOP</h1>
+                                <h3 class="product-price">390 BHT</h3>
+                                <button class="btn btn-product">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--lookbook section-->
+            <section class="lookbook">
+                <h2 class="must-have">MURIMURA GIRL'S LOOKBOOK</h2>
+                <div class="container-blog">
+                    <div class="blog-content">
+                        <div class="blog-img">
+                            <img src="https://i.pinimg.com/564x/92/05/91/920591a0bd7affa7812060132bcde37a.jpg" class="img">
+                        </div>
+                        <div class="blog-title">
+                            <h1>WHITE AND BEIGE WINTER COMBI</h1>
+                            <p class="text-grey">"Back to one of my favorite ways to add more interest and depth to casual winter looks – white and beige!"</p>
+                            <button class="btn read-more">READ MORE&nbsp;<i class="fas fa-chevron-right"></i></button>
+                            <!--<div class="blog-react flex-row">
+                                <span class="text-grey"><i class="fas fa-share text-grey"></i>&nbsp;&nbsp;SHARE</span> <!--nbsp stands for non-breaking space
+                                <span class="text-grey"><i class="fas fa-star text-grey"></i>&nbsp;&nbsp;SAVE TO YOUR COLLECTION</span>
+                                <span class="text-grey"><i class="fas fa-user-circle text-grey"></i>&nbsp;&nbsp;MATOOMMATOM</span>-->
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-img">
+                            <img src="https://i.pinimg.com/564x/80/45/c6/8045c6d71f4efd269fe7278a228eeee1.jpg">
+                        </div>
+                        <div class="blog-title">
+                            <h1>BULKY BLAZER AND CROP TOP</h1>
+                            <p class="text-grey">"Back to one of my favorite ways to add more interest and depth to casual winter looks – white and beige!"</p>
+                            <button class="btn read-more">READ MORE&nbsp;<i class="fas fa-chevron-right"></i></button>
+                            <!--<div class="blog-react flex-row">
+                                <span class="text-grey"><i class="fas fa-share text-grey"></i>&nbsp;&nbsp;SHARE</span> <!--nbsp stands for non-breaking space
+                                <span class="text-grey"><i class="fas fa-star text-grey"></i>&nbsp;&nbsp;SAVE TO YOUR COLLECTION</span>
+                                <span class="text-grey"><i class="fas fa-user-circle text-grey"></i>&nbsp;&nbsp;MATOOMMATOM</span>-->
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-img">
+                            <img src="https://i.pinimg.com/564x/4f/72/63/4f7263d399ae6af09d5a7083fc24fc70.jpg">
+                        </div>
+                        <div class="blog-title">
+                            <h1>EARTH TONE CASUAL SUIT</h1>
+                            <p class="text-grey">"Back to one of my favorite ways to add more interest and depth to casual winter looks – white and beige!"</p>
+                            <button class="btn read-more">READ MORE&nbsp;<i class="fas fa-chevron-right"></i></button>
+                            <!--<div class="blog-react flex-row">
+                                <span class="text-grey"><i class="fas fa-share text-grey"></i>&nbsp;&nbsp;SHARE</span> <!--nbsp stands for non-breaking space
+                                <span class="text-grey"><i class="fas fa-star text-grey"></i>&nbsp;&nbsp;SAVE TO YOUR COLLECTION</span>
+                                <span class="text-grey"><i class="fas fa-user-circle text-grey"></i>&nbsp;&nbsp;MATOOMMATOM</span>-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    <!--js section-->
+    <script src="/js/main.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/owl.carousel.js"></script>
+    </body>
+</html>
